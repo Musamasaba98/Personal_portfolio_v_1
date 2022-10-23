@@ -13,3 +13,32 @@ Shoutouts to the [KANZUCODE TEAM](https://kanzucode.com/) and [CODE IMPACT TEAM]
 ### The Project
 ---
 I started by creating a folder on my desktop followed by creating a repository on github. Then I linked up the two using git commands.
+I then started setting up the Project resources that I am to use, to smoothen my workload while writing the code.
+
+#### Resources Include
+- Images
+- Html template
+- Css variables
+    ```
+    :root {
+    /*------Font-family------*/
+    --logo_font:'Montserrat', sans-serif;
+    --catch_txt:'Noto Serif JP', serif;
+    --intro_txt:'Abhaya Libre', serif;
+    --menu_txt:'Inter', sans-serif;
+    --body_txt:'Poppins', sans-serif;
+    /*------Colors------*/
+    --bg_color:#A09B9B;
+    --menu_color:#07070A;
+    --light_black:#1E1E1E;
+    --green_cal:#008B69;
+    --pure_white:#ffffff;
+    --pink_lady:#A41C6D;
+    /*------font-size------*/
+    --catch_sz:3rem;
+    --body_sz:1.5rem;
+    --intro_sz:2rem;
+    --logo_sz:2.25rem;
+  }
+  ```
+Then after setting up all the prerequisites, I believe I am now set to put my site to life.
