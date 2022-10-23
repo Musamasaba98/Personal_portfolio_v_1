@@ -1,10 +1,10 @@
 # MY PERSONAL PORTFOLIO
 ---
-I started with creating a wireframe for my project using figma [Portfolion design](https://www.figma.com/file/2hMBCNNzKIqf9QaIdecJB1/My_Portifolio?node-id=10%3A96).
+I started with creating a wireframe for my project using figma [Portfolio design](https://www.figma.com/file/2hMBCNNzKIqf9QaIdecJB1/My_Portifolio?node-id=10%3A96).
 
 ### The Design
 ---
-Well coming up with the design wasn't that easy since figma was just a new tool but I'm glad that I pulled out such a beautifull design.
+Well coming up with the design wasn't that easy since figma was just a new tool but I'm glad that I pulled up such a beautifull design.
 
 I still have some issue with choosing colors but I know experience is the best teacher, my mentors shared a number of resources to help me work on strengthening my color muscles.
 
