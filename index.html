@@ -10,6 +10,169 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="container">
+        <nav class="navbar flex">
+            <h1 class="logo">MASABA</h1>
+            <ul class="navigation flex">
+            <li class="nav_item"><a href="#">ABOUT</a></li>
+            <li class="nav_item"><a href="#">SKILLS</a></li>
+            <li class="nav_item"><a href="#">PROJECTS</a></li>
+            <li class="nav_item"><a href="#">CONTACT</a></li>
+            <li class="nav_item"><a href="#">ARTICLES</a></li>
+            </ul>
+            <i class="fa-solid fa-bars menu"></i>
+        </nav>
+        <div class="hero">
+            <img id="image" src="images/hero_photo.png" alt="My image">
+            <div class="hero_txt">
+            <h4 class="intro">Hello,
+                <br> 
+                I’m MASABA 
+            </h4>
+            <h1 class="catch_txt">A WEB DESIGNER 
+                BASED IN  KAMPALA 
+                UGANDA
+            </h1>
+            <img class="arrow" src="images/arrow.png" alt="Arrow">
+            </div>
+        </div>
+    </header>
+    <div class="cover"></div>
+    <section class="about">
+        <h3 class="sub_head">About Me</h3>
+        <div class="about_detail">
+            <p>Hello I’M Masaba Musa 
+                a junior software devel
+                oper from Kampala.
+                I am so much faschinated
+                by the idea of making this world a better place.
+                So I enjoy employing the same mindset on whichever project I work on.
+                today I’m enrolled into the Kanzucode Bootcamp and so far so goot. 
+            </p>
+            <div class="skills">
+                <h4 class="small_heading">Skills</h4>
+                <p>Here are the technologies
+                    i have been working with
+                    recently;
+                </p>
+                <div class="skills__details">
+                  <ul class="skills_list">
+                    <li class="skills_list_item">HTML</li>
+                    <li class="skills_list_item">CSS</li>
+                    <li class="skills_list_item">GITHUB</li>
+                    <li class="skills_list_item">AGILE DEVELOPMENT</li>
+                </ul> 
+                <div class="skills_images">
+                    <img src="images/Capture.PNG" alt="HTML">
+                    <img src="images/css.PNG" alt="CSS">
+                    <img src="images/git.PNG" alt="GITHUB">
+                    <img src="images/agile.PNG" alt="AGILE DEV">
+                </div> 
+                </div> 
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <h3 class="sub_head">Projects</h3>
+        <div class="project_cards">
+            <div class="project_card">
+                <a href="#">
+                    <img class="form_img" src="images/download.png" alt="form_image">
+                    <div class="project_card_txt">
+                        <h4 class="form_head">SURVEY FORM</h4>
+                        <p class="form_info">This is a survey form project, I was inspired by....</p>
+                    </div>
+                    <button type="submit" class="btn">MORE...</button>
+                </a>
+            </div>
+        </div>
+        <div class="project_cards">
+            <div class="project_card">
+                <a href="#">
+                    <img class="form_img" src="images/download.png" alt="form_image">
+                    <div class="project_card_txt">
+                        <h4 class="form_head">SURVEY FORM</h4>
+                        <p class="form_info">This is a survey form project, I was inspired by....</p>
+                    </div>
+                    <button type="submit" class="btn">MORE...</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="contact_us">
+        <h3 class="sub_head">Contact Us</h3>
+        <p class="contact_us--pg">
+            I’m always open to new oppor
+tunities, in case you can conta
+ct me using any of my social
+media accounts. And I case 
+you want to subscribe to my
+letter list you can fill in the 
+form below;
+        </p>
+        <div class="contact_us--social_media flex">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-at"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="contact_us--form">
+            <h4 class="small_heading subscribe">SUBSCRIBE</h4>
+            <form action="#">
+                <div class="form_item">
+                  <label for="fullname">Name</label><br>
+                <input type="text" name="fullname" id="fullname" placeholder="Full Name....">  
+                </div>
+                <div class="form_item">
+                  <label for="fullname">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com">  
+                </div>
+                <input type="submit" value="SUBMIT" class="btn form_btn">
+            </form>
+        </div>
+    </section>
+    <section class="projects">
+        <h3 class="sub_head">Articles</h3>
+        <div class="project_cards">
+            <div class="project_card article_card">
+                <a href="#">
+                    <img class="form_img article_img" src="images/download.png" alt="form_image">
+                    <div class="project_card_txt">
+                        <h4 class="form_head article_head">Why I became a software developer.
+                        </h4>
+                        <p class="form_info">I became a software developer  b’se 
+                            I wanted to explore........</p>
+                    </div>
+                    <button type="submit" class="btn article_btn">READ MORE...</button>
+                </a>
+            </div>
+        </div>
+        <div class="project_cards">
+            <div class="project_card article_card">
+                <a href="#">
+                    <img class="form_img article_img" src="images/download.png" alt="form_image">
+                    <div class="project_card_txt">
+                        <h4 class="form_head article_head">Why I became a software developer.
+                        </h4>
+                        <p class="form_info">I became a software developer  b’se 
+                            I wanted to explore........</p>
+                    </div>
+                    <button type="submit" class="btn article_btn">READ MORE...</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="contact_us--social_media flex">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-at"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="copy_right">
+            <span class="copyright">&copy</span>
+            <h5 class="date">OCTOBER-20-2</h4>  
+        </div> 
+    </footer>
 </body>
 </html>
