@@ -42,3 +42,7 @@ I then started setting up the Project resources that I am to use, to smoothen my
   }
   ```
 Then after setting up all the prerequisites, I believe I am now set to put my site to life.
+#### Mobile Vesion
+
+It was fun completing the mobile version. It was a journey full of bugs and errors but regardless, I had to get the work done.
+It is always very nice to see yourself puting something to life, but I am a little bit confused on whether to break the rules "Ka little" because in the project they said you use things like js and jquery at your own risk yet I have to implement the humberger menu functionality. I feel like I gonna break some things. 
