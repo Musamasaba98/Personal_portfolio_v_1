@@ -5,22 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MASABA MUSA</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&family=Inter:wght@500&family=Montserrat:wght@800&family=Noto+Serif+JP:wght@900&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container">
+    <header>
         <nav class="navbar flex">
-            <h1 class="logo">MASABA</h1>
+            <h1 class="logo"><a href="#">MASABA</a> </h1>
             <ul class="navigation flex">
-            <li class="nav_item"><a href="#">ABOUT</a></li>
-            <li class="nav_item"><a href="#">SKILLS</a></li>
-            <li class="nav_item"><a href="#">PROJECTS</a></li>
-            <li class="nav_item"><a href="#">CONTACT</a></li>
-            <li class="nav_item"><a href="#">ARTICLES</a></li>
+                <div id="nav_items">
+                    <li class="nav_item"><a href="#about">ABOUT</a></li>
+                    <li class="nav_item"><a href="#skills">SKILLS</a></li>
+                    <li class="nav_item"><a href="#projects">PROJECTS</a></li>
+                    <li class="nav_item"><a href="#contact_us">CONTACT</a></li>
+                    <li class="nav_item"><a href="#articles">ARTICLES</a></li> 
+                </div>
             </ul>
-            <i class="fa-solid fa-bars menu"></i>
+            <i id="open" class="fa-solid fa-bars menu"></i>
+            <i id="close" class="fa-sharp fa-solid fa-xmark menu close"></i>
+            <span id="pannel" class="close"></span>
         </nav>
         <div class="hero">
             <img id="image" src="images/hero_photo.png" alt="My image">
@@ -33,12 +38,15 @@
                 BASED IN  KAMPALA 
                 UGANDA
             </h1>
-            <img class="arrow" src="images/arrow.png" alt="Arrow">
+            <a href="#about">
+                <img class="arrow" src="images/arrow.png" alt="Arrow">
+            </a>
+            
             </div>
         </div>
     </header>
     <div class="cover"></div>
-    <section class="about">
+    <section class="about container" id="about">
         <h3 class="sub_head">About Me</h3>
         <div class="about_detail">
             <p>Hello I’M Masaba Musa 
@@ -49,9 +57,9 @@
                 So I enjoy employing the same mindset on whichever project I work on.
                 today I’m enrolled into the Kanzucode Bootcamp and so far so goot. 
             </p>
-            <div class="skills">
+            <div class="skills" id="skills">
                 <h4 class="small_heading">Skills</h4>
-                <p>Here are the technologies
+                <p class="skill_detail">Here are the technologies
                     i have been working with
                     recently;
                 </p>
@@ -63,17 +71,17 @@
                     <li class="skills_list_item">AGILE DEVELOPMENT</li>
                 </ul> 
                 <div class="skills_images">
-                    <img src="images/Capture.PNG" alt="HTML">
-                    <img src="images/css.PNG" alt="CSS">
-                    <img src="images/git.PNG" alt="GITHUB">
-                    <img src="images/agile.PNG" alt="AGILE DEV">
+                    <img class="i-m-g" src="images/Capture.PNG" alt="HTML">
+                    <img class="i-m-g" src="images/css.PNG" alt="CSS">
+                    <img class="i-m-g" src="images/git.PNG" alt="GITHUB">
+                    <img class="i-m-g" src="images/agile.PNG" alt="AGILE DEV">
                 </div> 
                 </div> 
             </div>
         </div>
     </section>
-    <section class="projects">
-        <h3 class="sub_head">Projects</h3>
+    <section class="projects container" id="projects">
+        <h3 class="sub_head specific_margin">Projects</h3>
         <div class="project_cards">
             <div class="project_card">
                 <a href="#">
@@ -107,8 +115,8 @@
             </div>
         </div>
     </section>
-    <section class="contact_us">
-        <h3 class="sub_head">Contact Us</h3>
+    <section class="contact_us container" >
+        <h3 class="sub_head" id="contact_us">Contact Us</h3>
         <div class="contact_all">
             <div class="contact_detail">
                 <p class="contact_us--pg">
@@ -144,8 +152,8 @@
         </div>
         
     </section>
-    <section class="projects">
-        <h3 class="sub_head">Articles</h3>
+    <section class="projects container" id="articles">
+        <h3 class="sub_head specific_margin">Articles</h3>
         <div class="project_cards">
             <div class="project_card article_card">
                 <a href="#">
@@ -197,5 +205,6 @@
             <h5 class="date">OCTOBER-20-2</h4>  
         </div> 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
