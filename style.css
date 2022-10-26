@@ -152,6 +152,9 @@ h1 a{
     font-weight: 700;
 }
 .dock{
+    width: 0;
+}
+.dock{
     display: grid;
     position: absolute;
     grid-gap: -10rem;
@@ -163,6 +166,7 @@ h1 a{
     background: var(--card_gray);
     width: 65%;
     z-index: 5;
+    transition: all 500ms ease-in-out;
 }
 .pannel{
     display: block;
