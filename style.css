@@ -26,6 +26,11 @@ label{
     color: var(--light_black);
     font-weight: 900;
 }
+li a{
+    color: var(--pure_white);
+    margin-right: .3rem;
+    line-height: 1.5;
+}
 /*-------------General class styles--------------*/
 .container{
     max-width: 100%;
@@ -97,7 +102,8 @@ label{
     font-family: var(--log_font);
 }
 .nav_item{
-
+ display: inline-block;
+ color: var(--pure_white);
 }
 .navigation{
     display: none;
@@ -158,14 +164,15 @@ label{
 }
 /*-------------Project Section--------------*/
 .project_cards{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
 }
 .project_card{
-    margin: 1rem 2rem ;
+    margin: 1rem auto;
     background-color: var(--card_gray);
     border-radius: 1.5rem;
+    max-width: 80%;
 }
 .form_img{
     width: 100%;
@@ -237,4 +244,82 @@ input[type=text],input[type=email]{
 .date{
     display: inline;
 }
-/*-------------Element styles--------------*/
+/*-------------Media Queries--------------*/
+/*-------------Tablets and Big smartphones--------------*/
+@media screen and (min-width: 532px) {
+    .hero_txt{
+        top: 10rem;
+    }
+    #image{
+        margin-left: 15rem;
+    }
+    .intro{
+        font-size: 2em;
+    }
+    .catch_txt{
+        font-size: 3em;
+        line-height: 1em;
+    }
+    .arrow{
+        margin-top: 3.3rem;
+        margin-left: 30%;
+    }
+    }
+ /*-------------Laptops--------------*/   
+@media screen and (min-width: 768px) {
+        .hero{
+            margin: auto 2rem;
+        }
+        #image{
+            float: right;
+        }
+        .hero_txt{
+            max-width: 70%;
+            float: left;
+        }
+        .about_detail{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            margin-top: 3rem;
+            grid-gap: 2rem;
+        }
+        .small_heading::after{
+            content: "";
+            width: 20%;
+            border-bottom: solid 3px var(--pink_lady);
+            position: absolute;
+            left:60%;
+            margin-top: .8rem;
+            z-index: 1;
+        }
+        .project_cards{
+            grid-template-columns: repeat(3,1fr);
+            
+        }
+        .contact_all{
+            display: flex;
+            justify-content: space-around;
+        }
+        .contact_detail{
+            max-width: 40%;
+        }
+        .subscribe::after{
+            width: 15%;
+            left: 80%;
+        }
+        button[type=submit]{
+            margin: 1rem 7rem;
+        }
+        .menu{
+            display: none;
+        }
+        .navigation{
+            display: block;
+        }
+        .article_btn{
+            padding: 1rem 0.5;
+        }
+    }
+/*-------------For Big TV's (HD Screens) --------------*/   
+@media screen and (min-width: 1280px) {
+    }
