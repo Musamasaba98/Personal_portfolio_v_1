@@ -530,6 +530,12 @@ input[type=email] {
     .i-m-g {
         max-width: 5rem;
     }
+    .navigation{
+        width: 100%;
+        top:1.5rem;
+        right: 5rem;
+        text-align: right;
+    }
 }
 
 /*-------------For Big TV's (HD Screens) --------------*/
