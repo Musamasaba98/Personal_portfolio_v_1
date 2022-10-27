@@ -45,4 +45,14 @@ Then after setting up all the prerequisites, I believe I am now set to put my si
 #### Mobile Vesion
 
 It was fun completing the mobile version. It was a journey full of bugs and errors but regardless, I had to get the work done.
-It is always very nice to see yourself puting something to life, but I am a little bit confused on whether to break the rules "Ka little" because in the project they said you use things like js and jquery at your own risk yet I have to implement the humberger menu functionality. I feel like I gonna break some things. 
+It is always very nice to see yourself puting something to life, but I am a little bit confused on whether to break the rules "Ka little" because in the project they said you use things like js and jquery at your own risk yet I have to implement the humberger menu functionality. I feel like I gonna break some things.
+
+#### Mobile Vesion
+
+The desktop version, was so easy to pull off so I feel like it will always be better if I first concentrated on mobile version for the start.
+
+#### Conclusion
+
+This is our first capstone project. I have learnt alot and much more willing to learn more, personally I had never done a project from scratch, I mean from designing up to hosting. Thanks to our facilitators that I have made this.
+
+                  **_I AM REALLY HAPPY_**
