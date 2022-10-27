@@ -167,7 +167,10 @@ a i{
 }
 
 .navigation {
-    display: none;
+    position: absolute;
+    right: 0;
+    top: 4.25rem;
+    width: 0;
 }
 
 .nav_items {
