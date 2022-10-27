@@ -4,13 +4,15 @@ const nav=document.querySelector(".navigation");
 const span=document.querySelector("#pannel");
 const lists=document.querySelector("#nav_items");
 const list=document.querySelectorAll(".nav_item");
+const hero=document.querySelector("#body")
 
 open.addEventListener("click",(e)=>{
     open.classList.add("close");
     close.classList.remove("close");
     nav.classList.add("dock");
     span.classList.add("pannel");
-    lists.classList.add("nav_items")
+    lists.classList.add("nav_items");
+    hero.classList.add("someContainer")
 })
 close.addEventListener("click",(e)=>{
     open.classList.remove("close");
@@ -18,6 +20,7 @@ close.addEventListener("click",(e)=>{
     nav.classList.remove("dock");
     span.classList.remove("pannel");
     lists.classList.remove("nav_items");
+    hero.classList.remove("someContainer")
 });
 
 list.forEach((element)=>{
@@ -27,5 +30,6 @@ list.forEach((element)=>{
         nav.classList.remove("dock");
         span.classList.remove("pannel");
         lists.classList.remove("nav_items");
+        hero.classList.remove("someContainer")
     })
 })
